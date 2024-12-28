@@ -1,0 +1,52 @@
+
+
+.work-sans-name {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+   background-color: #FD6E0A;
+   font-weight: bold;
+   font-size: 20px;
+   color: white;
+   padding: 18px 35px;
+   border-radius: 5px;
+    
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    
+}
