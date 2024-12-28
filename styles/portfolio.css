@@ -26,6 +26,17 @@
    border-radius: 5px;
     border: none;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 45px;
+}
+.section-describtion{
+    font-weight: normal;
+    font-size: 18p;
+}
 
 /* nav style */
 nav{
@@ -81,4 +92,36 @@ nav ul{
 .banner-title{
     font-weight: bold;
     font-size: 85px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about reletad */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+.about-title{
+    font-size: 20px;
+    color: #757575;
+   
+}
+.about-describtion{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
+}
+/* What section style */
+.what{
+    text-align: center;
+    padding: 0 300px;
 }
