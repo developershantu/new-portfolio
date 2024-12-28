@@ -136,7 +136,7 @@ main section{
 .what > .section-describtion{
     padding: 0 115px;
 }
-.skills{
+.skills-container{
     display: flex;
     gap: 24px;
 }
