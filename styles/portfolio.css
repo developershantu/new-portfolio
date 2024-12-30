@@ -178,27 +178,21 @@ hr{
     margin-top: 50px;
 }
 /* footer style */
-.footer-container{
+footer{
     display: flex;
-    gap: 117px;
-  
+    padding: 130px 120px;
+    gap: 130px;
 }
-.footer{
-
-  margin-top: 150px;
-  /* width: 1600px; */
-
-  
+.footer-column{
+    width: 50%;
 }
-.footer-input{
-   display: flex;
-   flex-direction: column;
-  gap: 20px;
-}
-.footer-left{
-    /* text-align: center; */
-}
-.footer-describtion{
-    font-size: 16px;
-    
+footer input[type="text"],input[type="email"],footer textarea{
+    display: block;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    width: 70%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
 }
